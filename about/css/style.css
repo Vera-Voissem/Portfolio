@@ -32,11 +32,12 @@ svg text {
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
 }
-.sevillana-regular {
-    font-family: "Sevillana", cursive;
+.patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
     font-weight: 400;
     font-style: normal;
   }
+  
   
 main {
     display: grid; 
