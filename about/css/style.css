@@ -44,7 +44,10 @@ header {
     
     padding-bottom: 90px;
 }
-
+main {
+    display: grid;
+    align-items: center;
+}
 p {
     text-align: center;
     font-size: 24px;
