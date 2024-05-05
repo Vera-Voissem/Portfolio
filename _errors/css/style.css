@@ -289,7 +289,110 @@ p {
   .button:not(:last-child){
     margin-bottom : 64px ;
   }
- 
+  .container {
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.flower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.petal1 {
+    height: 100px;
+    width: 280px;
+    border-radius: 50px;
+    background: pink;
+    z-index: 2;
+}
+.petal2 {
+    height: 100px;
+    width: 280px;
+    border-radius: 50px;
+    background: pink;
+    transform: rotate(60deg);
+    position: absolute;
+    z-index: 3;
+}
+.petal3 {
+    height: 100px;
+    width: 280px;
+    border-radius: 50px;
+    background: pink;
+    transform: rotate(300deg);
+    position: absolute;
+    z-index: 4;
+}
+
+.left-eye {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -80px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 5;
+}
+.eye-innerL {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 9;
+    animation: orbit 4s linear infinite;
+}
+@keyframes orbit {
+    from {
+        transform: rotate(0deg) translateX(10px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    }
+}
+.right-eye {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 6;
+}
+.eye-innerR {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 8;
+    animation: orbit 4s linear infinite;
+}
+.nose {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 7;
+}
+
   @media screen and (max-width: 768px) {
     svg {
         display: none;
