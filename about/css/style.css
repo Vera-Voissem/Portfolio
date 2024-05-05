@@ -67,22 +67,6 @@ p {
   .image img {
     width: 300px;
   }
-.image {
-        width: 50px;
-        height: 50px;
-        -webkit-animation: squareToCircle 2s 1s infinite alternate;
-      }
-      
-@-webkit-keyframes squareToCircle {
-     0% {
-         border-radius: 0 0 0 0;
-         transform: rotate(0deg);
-     }
-     25% {
-        border-radius: 25% 0 0 0;
-        transform: rotate(15deg);
-             }
-         }
 
 .type--A{
     --line_color : #555555 ;
