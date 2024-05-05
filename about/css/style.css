@@ -300,28 +300,11 @@ p {
   }
  
   @media screen and (max-width: 768px) {
-    svg {
-        display: none;
-    }
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .name {
-        display: flex;
-        font-size: 4.5em;
-        justify-content: center;
-        
-    }
-    header {
-        height: 350px;
-        padding-bottom: 150px;
-        
+    
         
     }
     
-  }
+  
   @media screen and (min-width: 1920px) {
     body {
         width: 100%;
