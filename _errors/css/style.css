@@ -26,26 +26,11 @@ main {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 0px;
-    height: 100%;
-    
+    height: 100%; 
 }
-.floating {
-    background: url(images/vera1.webp) no-repeat 260px 0px / 250px 250px, url(images/vera2.webp) no-repeat 20px 130px / 250px 250px, url(images/vera3.webp) no-repeat 260px 265px / 250px 250px, url(images/vera4.webp) no-repeat 15px 390px / 250px 250px;
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+header {
+    margin: 0;
 }
- 
-@keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }    
-}
-  .image img {
-    width: 300px;
-  }
-
 .type--A{
     --line_color : #555555 ;
     --back_color : #FFECF6  ;
