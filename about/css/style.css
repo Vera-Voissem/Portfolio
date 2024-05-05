@@ -8,30 +8,6 @@ body {
     grid-template-columns: minmax(auto, 1024px);
     justify-content: center;
 }
-@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
-
-svg {
-	font-family: "Sofia", sans-serif;
-	width: 100%; 
-}
-svg text {
-	animation: stroke 5s infinite alternate;
-	stroke-width: 2;
-	stroke: #000000;
-	font-size: 125px;
-}
-@keyframes stroke {
-	0%   {
-		fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1);
-		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-	}
-	70%  {fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1); }
-	80%  {fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1); stroke-width: 3; }
-	100% {
-		fill: rgba(0,0,0,1); stroke: rgba(0,0,0,0);
-		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-	}
-}
 .patrick-hand-regular {
     font-family: "Patrick Hand", cursive;
     font-weight: 400;
@@ -334,7 +310,10 @@ p {
         background: none;
         background: url(images/myself.webp) no-repeat 20px 250px / 250px 250px ;
     }
-        
+       .floating {
+        display: none;
+       } 
+       
     }
     
   
