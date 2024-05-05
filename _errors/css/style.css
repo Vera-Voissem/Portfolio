@@ -12,6 +12,8 @@ body {
     font-family: "Patrick Hand", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 2em;
+    text-align: center;
 }
 .sofia-regular {
     font-family: "Sofia", cursive;
@@ -20,6 +22,7 @@ body {
   }
 h1 {
     text-align: center;
+    font-size: 8em;
 }
 main {
     display: grid; 
