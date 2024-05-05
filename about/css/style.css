@@ -51,6 +51,9 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 0px;
     height: 100%;
+    
+}
+main div {
     background: url(images/myself.webp) no-repeat 20px 250px / 250px 250px ;
 }
 p {
