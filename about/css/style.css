@@ -313,7 +313,12 @@ p {
        .floating {
         display: none;
        } 
-       
+       main  {
+        grid-template-columns: 1fr;
+       }
+       p {
+        transform: rotate(0deg);
+       }
     }
     
   
