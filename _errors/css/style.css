@@ -35,6 +35,18 @@ main {
 header {
     margin: 0;
 }
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
 .type--A{
     --line_color : #555555 ;
     --back_color : #FFECF6  ;
