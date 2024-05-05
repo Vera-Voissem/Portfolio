@@ -47,14 +47,13 @@ h1 {
 }
 main {
     display: grid; 
-    transform: rotate(-3deg);
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    
     gap: 0px;
     height: 100%;
 }
 p {
+    transform: rotate(-3deg);
     text-align: center;
     font-size: 25px;
     border: 10px solid black;
