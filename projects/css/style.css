@@ -270,6 +270,15 @@ h1 {
   .button:not(:last-child){
     margin-bottom : 64px ;
   }
+  :root {
+    --surface-color: #fff;
+    --curve: 40;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
