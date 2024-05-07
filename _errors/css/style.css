@@ -394,6 +394,7 @@ header {
     .container {
         display: flex;
         align-items: center;
+        height: 450px;
     }
     .name {
         display: flex;
