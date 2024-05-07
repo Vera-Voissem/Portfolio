@@ -394,7 +394,7 @@ header {
     .button-container {
         display: flex;
         align-items: center;
-        padding-top: 700px;
+        padding-top: 750px;
     }
     .name {
         display: flex;
