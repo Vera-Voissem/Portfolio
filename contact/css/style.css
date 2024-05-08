@@ -21,6 +21,14 @@ body {
 h1 {
     text-align: center;
 }
+main {
+    display: grid; 
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    height: 100%;
+    
+}
 .type--A{
     --line_color : #555555 ;
     --back_color : #FFECF6  ;
@@ -264,7 +272,9 @@ h1 {
         height: 150px;
         background: none;
     }
-      
+    main  {
+        grid-template-columns: 1fr;
+       }
     }
     
   
