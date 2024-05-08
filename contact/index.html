@@ -10,11 +10,28 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Sevillana&display=swap" rel="stylesheet">
+    <script src="../js/script.js"></script>
 </head>
 <body class="sofia-regular">
     <div class="wrapper">
     <main>
-        
+        <main>
+            <form novalidate id="form" method="post" action="../index.html">
+                <fieldset>
+                    <legend>Your email:</legend>
+                    <p>
+                       <label for="email">Email</label>
+                       <input type="email" name="email" id="email">
+                   </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Your comments:</legend>
+                    <p>
+                        <label for="comments">Write your comments here:</label>
+                        <textarea id="comments" name="comments"></textarea>
+                    </p>
+                </fieldset>
+                </form>
     </main>
     <nav>
         <div class="container">
