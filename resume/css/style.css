@@ -21,7 +21,18 @@ body {
 h1 {
     text-align: center;
 }
+.pdf {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+}
 
+.pdf,
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 .type--A{
     --line_color : #555555 ;
