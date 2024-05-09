@@ -42,7 +42,9 @@ input[type=email] {
 .submit {
     display: flex;
     justify-content: center;
-
+    background: #fff0f0;
+    border: none;
+    margin: 0;
 }
 textarea {
     width: 350px;
@@ -157,6 +159,8 @@ textarea {
     }
   }
   button {
+    width: 130px;
+    height: 50px;
     position: relative;
     display: inline-block;
     cursor: pointer;
