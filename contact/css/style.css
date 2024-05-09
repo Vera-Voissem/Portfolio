@@ -60,7 +60,8 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5em;
+    border: 1.5px solid gray;
+    margin-top: 18px;
   }
   
   .social-button {
